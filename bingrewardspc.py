@@ -13,7 +13,7 @@ pgui.hotkey('enter')
 time.sleep(2)
 variavel = 1
 
-for i in range(2): # Número de repetições
+for i in range(30): # Número de repetições
     digitador = str(variavel)
     pgui.write(f"{digitador}")
     pgui.hotkey('space')
